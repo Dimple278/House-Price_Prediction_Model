@@ -9,7 +9,7 @@ i=int(input("Enter the RAD: "))
 j=int(input("Enter the TAX: "))
 k=int(input("Enter the PTRATIO: "))
 l=int(input("Enter the B: "))
-m=int(input("Enter the LSTAT: "))
+
 
 a=np.array([[a,b,c,d,e,f,g,h,i,j,k,l,m]])
 X_test_prepared = my_pipeline.transform(a)
