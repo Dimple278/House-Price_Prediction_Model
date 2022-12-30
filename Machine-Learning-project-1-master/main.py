@@ -1,11 +1,7 @@
 from joblib import dump, load
 import numpy as np
 model,my_pipeline = load('Dragon.joblib')
-a=int(input("Enter the CRIM: "))
-b=int(input("Enter the ZN: "))
-c=int(input("Enter the INDUS: "))
-d=int(input("Enter the CHAS: "))
-e=int(input("Enter the NOX: "))
+a=int(input("Enter the CRIM: "e=int(input("Enter the NOX: "))
 f=int(input("Enter the RM: "))
 g=int(input("Enter the AGE: "))
 h=int(input("Enter the DIS: "))
